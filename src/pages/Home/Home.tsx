@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       {state?.data
-        ? <Product response={state} id={id} />
+        ? <Product response={state} />
         : 'Invalid Tag'
       }
     </>

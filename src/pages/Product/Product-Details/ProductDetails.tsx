@@ -1,7 +1,7 @@
 import './ProductDetails.scss';
 
 export default function ProductDetails(props: any) {
-  const { details, goToMain } = props;
+  const { details } = props;
 
   function DetailsList() {
     return (
@@ -18,13 +18,6 @@ export default function ProductDetails(props: any) {
 
   return (
     <div className="product-details">
-      <button onClick={() => goToMain()}>
-        <span className="material-icons-outlined">
-          arrow_back
-        </span>
-        <span> Back</span>
-      </button>
-
       <DetailsList />
     </div>
   );

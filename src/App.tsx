@@ -7,18 +7,14 @@ import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <Router>
-      <header className="container">
-        Brand Name
-      </header>
-      
-      <main className="container">
+    <Router>      
+      <>
         <Switch>
           <Route path="/:id">
             <Home />
           </Route>
         </Switch>
-      </main>
+      </>
     </Router>
   );
 }
