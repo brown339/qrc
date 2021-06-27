@@ -1,0 +1,32 @@
+div.product-details {
+  height: 100%;
+
+  button {
+    align-items: center;
+    border: none;
+    background: none;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40px;
+    justify-content: space-between;
+    margin: 40px 0;
+    width: 70px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    border: 1px solid #f3f3f3;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  p:first-of-type {
+    color: #999;
+    margin-bottom: 4px;
+  }
+}

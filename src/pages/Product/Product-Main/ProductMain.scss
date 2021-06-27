@@ -1,0 +1,26 @@
+div.product-main {
+  div.img-wrapper {
+    height: 400px;
+    text-align: center;
+
+    img {
+      height: 400px;
+    }
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  button {
+    background: #000;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+  }
+}

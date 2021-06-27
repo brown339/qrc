@@ -1,0 +1,14 @@
+header {
+  border-bottom: 1px solid #ccc;
+  font-size: 26px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+main.container {
+  display: flex;
+  flex: 1 1 0;
+  flex-flow: column;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+div.confirm-age {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background: #000;
+    border: none;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  button.yes {
+    margin-bottom: 30px;
+  }
+  
+  p.error {
+    color: #f00;
+  }
+}
